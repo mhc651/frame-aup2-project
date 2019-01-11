@@ -1,0 +1,101 @@
+.clearfix:after {
+  content: '\200B';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.text-pre{
+  display: inline-block;
+  white-space: pre-wrap;
+  vertical-align: top;
+}
+.text--red{
+  color: #f00;
+}
+.list--ol{
+  padding-left: 15px;
+}
+.table--link td{
+  cursor: pointer;
+}
+.text-right{
+  text-align: right
+}
+.text-center{
+  text-align: center
+}
+.text-left{
+  text-align: left;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body {
+  font-family: 'Microsoft YaHei';
+}
+.page-container {
+  height: calc(100vh - 125px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.k-upload {
+  background-color: transparent;
+  border: none;
+}
+
+/*
+上传
+*/
+.ivu-upload-list-file > span {
+  display: inline-block;
+  width: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ivu-upload-list-file:hover {
+  background: none;
+}
+.ivu-upload-list-file .ivu-upload-list-remove {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  margin-left: 15px;
+  color: #f00;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ivu-input:read-only,
+.ivu-input:disabled,
+textarea:read-only,
+textarea:disabled,
+.ivu-select-disabled .ivu-select-selection {
+  background: #f9f9f9;
+  color: #495060;
+}
+.ivu-form-item {
+  margin-bottom: 0px;
+}
+/*form*/
+.form--padding{
+  padding-bottom: 20px;
+}
